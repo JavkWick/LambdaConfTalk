@@ -150,8 +150,6 @@ theme: league
   </div>
 </div>
 
-<img src="./CogentSheet1.png" alt="Your Image" style="width: auto; height: 95%;">
-
 ----
 
 ## Fallen Character Sheet Prt 2
@@ -250,20 +248,68 @@ theme: league
   </div>
 </div>
 
---- 
+---
 
 ## Functional Thinking Prt 1
+- Modeling the domain of Fallen in F# poked holes in my rules
+![](./githubAnalyticsForFogentRoleplayCommits.png)
+- Pause programming I went straight to the rules and spent probably a ~1-2 months working directly on the rules.
 
-- As encapsulated the entirety of Fallen's rules into, the compiler started poking holes in the edge cases of my rules.
-- I quickly realized that I had large sections of my rules that needed some work.
-- Instead of working through it from the programming side, I went straight to the rules and spent probably a ~1-2 months working directly on the rules.
-- Because I had been so deep into structuring the logic of the F# application, I went out of my way write my rules as functionally as I could. This lead to a completely decoupled game now longer tied to my setting Fallen. Hence Fogent Roleplay was born.
-- After Fogent Roleplay 1.0 was finalized, I went ahead and have begun refactoring all my old Fallen Character Sheet code. It is amazing how horrible your code looks 2 months in the future, lol.
-- Future plans to to finish the character sheet logic, make the UI more appealing, move my database to postgresSQL!
+----
+
+## Functional Thinking Prt 2
+- Focused on composing existing rules instead of writing brand new ones.
+- Examples:
+  - Combat spells composed from weapon classes.
+  - Magic Spells composed from skill and challenge level rules.
+  - Attack ranges, AOEs, magic resource, etc... composed from dice pool size rules
+
+
+----
+
+## Functional Thinking Prt 3
+- Writing my rules (in english) with this funcional mindset shrunk my rules, dramatically improved clarity, and enabled my system be the narrative engine for any story or setting.
+
+----
+
+## Functional Thinking Prt 4
+
+<div class="container">
+  <div class="image">
+    <img src="./FSIcon.png" alt="Your Image">
+  </div>
+  <div class="image">
+    <img src="./PlusSymbol.png" alt="Your Image">
+  </div>
+  <div class="image">
+    <img src="./CogentRoleplayAttribution_Stacked.png" alt="Your Image">
+  </div>
+</div>
+
+- Hence, Fogent Roleplay was created, in honor of F# and Cogent Roleplay!
+
+---
+
+## Near-term Development
+
+- Finish refactoring character sheet logic (very close).
+- Doing some actually UI styling work, defently make a better logo!
+- Migrating my current data to a PostgresSQL DB.
+- Hosting the website.
+
+----
+
+## Long-term Development
+
+- Mobile app
+- User added content
+- Built in rule book
+- More settings!
+
+---
 
 ## Take aways
 
 - Try F#, it's amazing that for a relatively smaller user base, it swings way above it's weight class.
-- Thinking functionally doesn't just apply to programming. It's a mindset that can be applied in far more places than you may have initially considered. I just happened to discover it while working on my nerd game. :)
-- Start that coding passion project today. Finding any way to combine one of your passions with your programming is life changing. I can confidently say that prior to the couple year side project, I wasn't as passionate about programming. Now I honestly love a good programming session as much as spending time playing Fogent with my friends, which is a hight bar.
-- We often play the parts of wizards solving other people's problems. It's a real treat to solve your own problems for once!
+- Thinking functionally doesn't just apply to programming. It's a mindset and tool that can be applied in far more places than you may have initially considered.
+- Finding any way to combine one of your passions with your programming is life changing. As programmers we tend to solve other's problems, solve one of your own for a change. 
