@@ -31,14 +31,9 @@ theme: league
 
 <div class="container">
   <div class="text">
-    <!-- <p>
-      This is a paragraph of text next to an image that takes up 30% of the width of the screen. 
-      You can replace this text with whatever content you'd like.
-    </p> -->
     <ul>
       <li>My name is Jack Danna, aka Javk Wick.</li>
       <li>I'm a software engineer from Kentucky. The bulk of my professional career I've written software for Mining, Blasting, and Photogrammetry applications.</li>
-      <!-- <li>Hobbies: BJJ, Story Telling, Table Top Roleplay Games (TTRPGs), Power Lifting, Functional Programming</li> -->
       <li>I'm also the creator/developer of Fogent Roleplay.</li>
     </ul>
   </div>
@@ -51,8 +46,8 @@ theme: league
 
 ## Objective of this talk
 
-- Point out some funny parallels between developing code and TTRPG
-- Why I chose F# for building tools for Fogent Roleplay (and convince you to try it)!
+- Walk through my development journey on my project.
+- Why I chose F# for building tools for Fogent Roleplay and convince you to try it!
 - How building with a functional first language taught me how to "Think Functionally".
 - How "Thinking Functionally" bled back into the rules of my game creating a far better game.
 
@@ -129,7 +124,6 @@ theme: league
     <ul>
       <li>Issues Cogent Roleplay</li>
       <ul>
-        <li>Try Cogent out for my "The Beast of Redwall" campaign</li>
         <li>Super apparent to me and my players that there was something here but it wasn't quite there yet</li>
         <li>Started developing my own Rules under the game of "Fallen" trying to address these issue.</li>
       </ul>
@@ -153,8 +147,6 @@ theme: league
 ----
 
 ## Fallen Character Sheet Prt 2
-
-<!-- - Made a character sheet using google docs: https://docs.google.com/document/d/1KnnLu7UrbQy-35Bf3yt0Sg0_FQPxISAIUZy19WLppSU/edit -->
 
 <div class="container">
   <div>
@@ -180,7 +172,7 @@ theme: league
   </div>
 </div>
 
-- Here is where I lose my mind with the Google Appscript complier.
+- Here is where I lose my mind with the Google Appscript compiler.
 
 ----
 
@@ -208,14 +200,20 @@ theme: league
 
 ## Fallen Character Sheet Prt 5
 
+```
+
+```
+
+----
+
 <div class="container">
   <div class="text">
     <ul>
       <li>Switch to SAFE stack (Saturn, Azure, Fable, Elmish)</li>
       <li>Inter Ops with JS</li>
       <li>The robustness of F# in the web</li>
-      <li>The Elmish Book by Ziad Ajaj</li>
-      <li>Since Elmish is MVU, can use same code to target desktop or mobile (AvaloniaUI, Fabulous, )</li>
+      <li>The Elmish Book by Zaid Ajaj</li>
+      <li>Since Elmish is MVU, can use same code to target desktop or mobile (AvaloniaUI, Fabulous)</li>
       <li>.NET ecosystem</li>
     </ul>
   </div>
@@ -291,20 +289,23 @@ theme: league
 ---
 
 ## Near-term Development
-
+<!-- 
 - Finish refactoring character sheet logic (very close).
 - Doing some actually UI styling work, defently make a better logo!
 - Migrating my current data to a PostgresSQL DB.
-- Hosting the website.
+- Hosting the website. -->
+show more code
 
 ----
 
 ## Long-term Development
 
-- Mobile app
+<!-- - Mobile app
 - User added content
 - Built in rule book
-- More settings!
+- More settings! -->
+
+Show more code
 
 ---
 
